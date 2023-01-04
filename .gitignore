@@ -102,3 +102,10 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Mac Desktop Services (DS) custom folder attributes file
+.DS_store
+*/*/.DS_store
+
+# VSCode settings
+/.vscode
