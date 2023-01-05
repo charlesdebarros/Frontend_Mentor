@@ -85,3 +85,11 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
+
+## Lighthouse scores
+* Performance: 100
+* Accessibility: 93 
+* Best Practices: 100
+* SEO: 100
+  
+***Note:*** Accessibility score is 93 as per the challenge, we must use a certain colour for the paragraph's text.
