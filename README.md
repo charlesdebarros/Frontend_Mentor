@@ -10,6 +10,6 @@ A repo for [Frontend Mentor](https://www.frontendmentor.io/) projects
 ## Objective
 Learning, exploring, and expanding my Frontend skills. Maybe learning a bit of design along the way, too.
 
-## Challenges
+## Challenges - My Solutions
 [QR Code Component](https://charlesdebarros.github.io/Frontend_Mentor/challenges/qr-code-component-main/)
 
