@@ -75,6 +75,18 @@ h1, h2, h3 {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
+  align-items: center;
+}
+
+/* For accessibility & screen readers */
+.visually-hidden:not(:focus):not(:active) {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
 
 /* ------------------------------ */
@@ -107,4 +119,10 @@ h1, h2, h3 {
   font-size: 2rem;
   font-family: var(--ff-accent);
   color: var(--color-very-dark-blue);
+}
+
+.product__price {
+  font-size: 2rem;
+  font-family: var(--ff-accent);
+  color: var(--color-dark-cyan);
 }
