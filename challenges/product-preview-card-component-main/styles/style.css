@@ -1,5 +1,6 @@
 /* Frontend Mentor - Product Preview card component */
 
+@import 'css_reset.css';
 
 /* ------------------------------ */
 /* FONTS                          */
@@ -23,28 +24,48 @@
   --color-very-dark-blue: hsl(212, 21%, 14%);
   --color-dark-grayish-blue: hsl(228, 12%, 48%);
   --color-white: hsl(0, 0%, 100%);
-  font-size: 14px;
+
+  /* font settings */
+  --fw-regular: 500;
+  --fw-bold: 700;
+  --ff-accent: 'Fraunces', serif;
+  --ff-regular: 'Montserrat', sans-serif;
 }
 
 /* ------------------------------ */
 /* BASE STYLING                   */
 /* ------------------------------ */
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 body {
-  font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: var(--ff-regular);
+  font-weight: var(--fw-regular);
+  font-size: 0.875rem;
+  color: var(--color-dark-grayish-blue);
   margin: unset;
   -webkit-text-size-adjust: none;
   text-size-adjust: none;
-  min-height: 100vh;
+
+  /* centralising card in the page */
+  display: grid;
+  align-items: center;
+  margin: 1rem;
 }
 
 img {
   max-width: 100%;
   height: auto;
 }
+
+/* ------------------------------ */
+/* UTILITIES                      */
+/* ------------------------------ */
+
+.flex-group {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* ------------------------------ */
+/* PRODUCT STYLING                */
+/* ------------------------------ */
