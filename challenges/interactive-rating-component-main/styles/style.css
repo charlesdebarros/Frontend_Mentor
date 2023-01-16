@@ -1,0 +1,47 @@
+/* Frontend Mentor - Interactive Rating Component */
+
+@import 'css-reset.css';
+
+/* ------------------------------ */
+/* FONTS                          */
+/* ------------------------------ */
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+/* ------------------------------ */
+/* VARIABLES                      */
+/* ------------------------------ */
+
+:root {
+  /* Primary */
+--color-orange: hsl(25, 97%, 53%)
+
+/* Neutral */
+
+--color-white: hsl(0, 0%, 100%);
+--color-light-grey: hsl(217, 12%, 63%);
+--color-medium-grey: hsl(216, 12%, 54%);
+--color-dark-blue: hsl(213, 19%, 18%);
+--color-very-dark-blue: hsl(216, 12%, 8%);
+
+  /* font settings */
+  --fw-regular: 400;
+  --fw-bold: 700;
+  --ff-regular: 'Overpass', sans-serif;
+}
+
+/* ------------------------------ */
+/* BASE STYLING                   */
+/* ------------------------------ */
+
+body {
+  /* 0.9375 is 15px from a 16px base size */
+  font-family: var(--ff-regular);
+  font-size: 0.9375rem;
+  font-weight: var(--fw-regular);
+}
+
+/* ------------------------------ */
+/* COMPONENT STYLING              */
+/* ------------------------------ */
+}
