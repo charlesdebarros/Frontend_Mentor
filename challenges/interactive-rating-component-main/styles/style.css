@@ -14,13 +14,14 @@
 
 :root {
   /* Primary */
---color-orange: hsl(25, 97%, 53%)
+--color-orange: hsl(25, 97%, 53%);
 
 /* Neutral */
 
 --color-white: hsl(0, 0%, 100%);
 --color-light-grey: hsl(217, 12%, 63%);
 --color-medium-grey: hsl(216, 12%, 54%);
+--color-medium-blue: hsl(213, 19%, 23%);
 --color-dark-blue: hsl(213, 19%, 18%);
 --color-very-dark-blue: hsl(216, 12%, 8%);
 
@@ -36,12 +37,36 @@
 
 body {
   /* 0.9375 is 15px from a 16px base size */
-  font-family: var(--ff-regular);
   font-size: 0.9375rem;
+  font-family: var(--ff-regular);
   font-weight: var(--fw-regular);
+  background-color: var(--color-very-dark-blue);
+  color: var(--color-medium-grey);
+
+
+  display: grid;
+  place-content: center;
+  align-items: center;
 }
 
 /* ------------------------------ */
 /* COMPONENT STYLING              */
 /* ------------------------------ */
+
+.component-container {
+  background-color: var(--color-dark-blue);
+  margin: 1.5rem;
+  padding: 1.5rem;
+  border-radius: 20px;
+  display: grid;
+}
+
+.component-star img {
+  background-color: var(--color-medium-blue);
+  padding: 0.8rem;
+  border-radius: 50%;
+}
+
+.hidden {
+  display: none;
 }
